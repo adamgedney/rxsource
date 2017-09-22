@@ -1,1 +1,0 @@
-export { SingleSrc } from './SingleSrc';
