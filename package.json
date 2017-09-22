@@ -1,6 +1,6 @@
 {
   "name": "vuex-single-src",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Vuex Plugin for providing a single data source to the state tree via branch mappings",
   "main": "index.js",
   "scripts": {
