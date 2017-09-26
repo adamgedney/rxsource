@@ -12,14 +12,14 @@
   ],
   "license": "MIT",
   "author": "Adam Gedney",
-  "homepage": "https://github.com/OlympusatDevelopment/vuex-single-src",
+  "homepage": "https://github.com/OlympusatDevelopment/rxsource",
   "repository": {
     "type": "git",
-    "url": "git@github.com:OlympusatDevelopment/vuex-single-src.git"
+    "url": "git@github.com:OlympusatDevelopment/rxsource.git"
   },
   "bugs": {
     "mail": "adam@olympusat.com",
-    "url": "https://github.com/OlympusatDevelopment/vuex-single-src/issues"
+    "url": "https://github.com/OlympusatDevelopment/rxsource/issues"
   },
   "main": "index.js",
   "scripts": {
