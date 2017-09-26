@@ -1,3 +1,3 @@
-var singleSrc = require('./lib/index.min.js').default;
+var rxsource = require('./lib/index.min.js').default;
 
-module.exports = singleSrc;
+module.exports = rxsource;

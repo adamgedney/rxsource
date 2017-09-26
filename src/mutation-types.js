@@ -1,1 +1,1 @@
-export const INJECT_DATA = 'singleSrc/INJECT_DATA'
+export const INJECT_DATA = 'rxsource/INJECT_DATA'

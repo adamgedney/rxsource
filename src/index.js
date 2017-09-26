@@ -1,4 +1,4 @@
-import * as singleSrcModule from  './module';
+import * as rxsourceModule from  './module';
 import { INJECT_DATA } from './mutation-types'
 /**
  * $stream is an Observable
@@ -6,7 +6,7 @@ import { INJECT_DATA } from './mutation-types'
  * @param {*}  
  * @param {*} map   
  */
-function SingleSrc($stream, map, options){
+function Rxsource($stream, map, options){
   return store => {
     $stream
       .subscribe(data=>{
@@ -20,6 +20,6 @@ function SingleSrc($stream, map, options){
 }
 
 export default {
-  SingleSrc,
-  singleSrcModule
+  Rxsource,
+  rxsourceModule
 }
