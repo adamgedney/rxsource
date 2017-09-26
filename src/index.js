@@ -1,17 +1,19 @@
-import { module } from  './module';
-
+import * as singleSrcModule from  './module';
+import { INJECT_DATA } from './mutation-types'
 /**
  * $stream is an Observable
  * options {updateMethod: "replace", "merge"}
  * @param {*}  
- * @param {*} map  
+ * @param {*} map   
  */
 function SingleSrc($stream, map, options){
   return store => {
     $stream
       .subscribe(data=>{
-        // commit(action, payload)
-        store.commit('injectData',{ data, map, options });
+        console.log('STREAM',data, map)
+        
+        // commit(action, payload) 
+        store.commit(INJECT_DATA,{ data, map, options })
       })
     //store.subscribe(mutation => {})
   }
@@ -19,5 +21,5 @@ function SingleSrc($stream, map, options){
 
 export default {
   SingleSrc,
-  singleSrcModule: module
+  singleSrcModule
 }
