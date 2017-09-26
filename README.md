@@ -2,7 +2,7 @@
 
 #### Vuex Plugin for providing a reactive X single data source to the state tree via branch mappings.
 
-The power of this library is that you can tie an Observable to your ajax responses or a socket connection, then do a little mapping, and push into your application state from a single source. 
+The power of this library is that you can tie an Observer to your ajax responses or a socket connection, then do a little mapping, and push into your application state from a single source. 
 
 Components in the app can just "announce" what data they need and they don't have to manage dispatching to the store, it will be done for them. Similarly, a socket based api can push to a socket on the client that is updating that same Observable Subject. 
 
