@@ -10,12 +10,8 @@ function Rxsource($stream, map, options){
   return store => {
     $stream
       .subscribe(data=>{
-        console.log('STREAM',data, map)
-        
-        // commit(action, payload) 
         store.commit(INJECT_DATA,{ data, map, options })
       })
-    //store.subscribe(mutation => {})
   }
 }
 
