@@ -33,7 +33,7 @@ Add the mutation, actions, and plugin to your Vuex store
     actions: {...actions, ...rxsourceModule.actions},
     mutations: {...rxsourceModule.mutations},
     plugins: [
-      Rxsource(window.Oly.$tream, testMap)
+      Rxsource(somethingObservable$, testMap)
     ],
     getters,
     modules: {

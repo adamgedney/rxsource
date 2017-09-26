@@ -1,6 +1,6 @@
 {
   "name": "rxsource",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Vuex Plugin for providing a reactive single data source to the state tree via branch mappings",
   "keywords": [
     "npm-package",
